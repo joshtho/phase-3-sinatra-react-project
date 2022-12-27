@@ -3,22 +3,27 @@ puts "🌱 Seeding vacations..."
 Location.create([
     {
         name: "Austin, TX",
+        description: "Austin is known as the Live Music Capital of the World, but that's just the beginning. Home to unique attractions and world-class museums, Texas' capital city has a soundtrack all its own.",
         image: "https://www.travelandleisure.com/thmb/bggU8kobL7GC0jIaY7g7XV_KEI4=/750x0/filters:no_upscale():max_bytes(150000):strip_icc():format(webp)/skyline-river-austin-texas-ATXTHINGS0122-4f095568988a408b8eadf93c530f1344.jpg"
     },
     {
         name: "Cloudcroft, NM",
+        description: "480,000 acres of open forest make for great hiking, mountain biking, camping, bird watching, horseback riding and much more! Cloudcroft has wonderful shops, restaurants and unique businesses to visit, a museum filled with the logging and railroad history of our area as well as unique events scheduled all year long!",
         image: "https://i0.wp.com/justsimplywander.com/wp-content/uploads/2019/10/Cloud-Croft.jpg?resize=583%2C875&ssl=1"
     },
     {
         name: "Breckenridge, CO",
+        description: "Much like Aspen and Vail, Breckenridge is a town that is known for its luxe ski resort, stunning mountain scenery, and endless recreation. The former mining town is lined with hundreds of restaurants, shops, and saloons. Breck attracts visitors from around the world.",
         image: "https://www.uncovercolorado.com/wp-content/uploads/2021/01/downtown-breckenridge-colorado-at-dawn.jpg"
     },
     {
         name: "New Braunfels, TX",
+        description: "New Braunfels is also home to the world-famous Schlitterbahn Waterpark, Texas' oldest dancehall Gruene Hall, Texas' oldest bakery Naeglin's Bakery, the 10-day salute to sausage known as Wurstfest, as well as the nearby Natural Bridge Caverns & Wildlife Ranch, and the Texas Ski Ranch.",
         image: "https://res.cloudinary.com/sagacity/image/upload/c_crop,h_2112,w_2857,x_0,y_0/c_limit,dpr_auto,f_auto,fl_lossy,q_80,w_1080/Guadalupe_ChrisZebo_TravelTexas_xiglqu.jpg"
     },
     {
         name: "South Padre, TX",
+        description: "",
         image: "https://assets.rebelmouse.io/eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJpbWFnZSI6Imh0dHBzOi8vYXNzZXRzLnJibC5tcy8yOTk5MjE0Ny9vcmlnaW4ucG5nIiwiZXhwaXJlc19hdCI6MTcwODM4NDIwNn0.R71i2YfdsyoOQr63nBj_gS3dGH-Mk230wdre3iNWQJA/img.png?width=1200&height=800&quality=85&coordinates=158%2C0%2C402%2C0"
     }  
 ])
