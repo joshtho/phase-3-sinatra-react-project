@@ -14,6 +14,7 @@ ActiveRecord::Schema.define(version: 2022_12_07_195321) do
 
   create_table "locations", force: :cascade do |t|
     t.string "name"
+    t.string "description"
     t.string "image"
   end
 
@@ -22,6 +23,7 @@ ActiveRecord::Schema.define(version: 2022_12_07_195321) do
     t.string "link"
     t.integer "guests"
     t.string "dates"
+    t.string "image"
     t.integer "location_id"
   end
 

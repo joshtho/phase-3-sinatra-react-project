@@ -5,6 +5,7 @@ class CreateLodgings < ActiveRecord::Migration[6.1]
       t.string :link
       t.integer :guests
       t.string :dates
+      t.string :image
       t.integer :location_id
     end
   end
