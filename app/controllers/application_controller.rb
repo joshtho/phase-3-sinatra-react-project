@@ -12,4 +12,29 @@ class ApplicationController < Sinatra::Base
     lodgings.to_json
   end
 
+  post '/locations' do 
+    locations = Location.create(
+      name: params[:name],
+      description: params[:description],
+      image: params[:image]
+    )
+    locations.to_json
+  end
+
+  patch '/locations/:id' do
+    location = Location.find(params[:id])
+    location.update(
+      name: params[:name], 
+      description: params[:description],
+      image: params[:image]
+      )
+      location.to_json
+  end
+
+  delete '/locations/:id' do
+    location = Location.find(params[:id])
+    location.destroy
+    location.to_json
+  end
+
 end
