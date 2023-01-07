@@ -20,6 +20,18 @@ class ApplicationController < Sinatra::Base
     )
     locations.to_json
   end
+  
+  post '/lodgings' do 
+    locations = Lodging.create(
+      dates: params[:dates],
+      guests: params[:guests],
+      image: params[:image],
+      link: params[:link],
+      location_id: params[:location_id],
+      season: params[:season]
+    )
+    locations.to_json
+  end
 
   patch '/locations/:id' do
     location = Location.find(params[:id])
